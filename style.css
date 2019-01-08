@@ -1,0 +1,169 @@
+.navbar {
+	background-color: white;
+}
+
+.jumbotron {
+  color: white;
+  background-color: black;
+	background-image: url("actor.jpg");
+	background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btn {
+	border-radius: 25px;
+}
+
+.mark {
+	background-color: transparent;
+	color: yellow;
+}
+
+#countTickets1 {
+  font-size: 20px;
+  background-color: #FF7F00;
+  border-radius: 50px;
+  -webkit-animation-name: seatsLeft;
+  -webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+  animation-name: seatsLeft;
+  animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes seatsLeft {
+  0% {background-color: #FF7F00;}
+  25% {background-color: #fcdb20;}
+	50% {background-color: ##FF7F00;}
+	100% {background-color: #e8482c;}
+}
+
+@keyframes seatsLeft {
+	0% {background-color: #FF7F00;}
+  25% {background-color: #fcdb20;}
+	50% {background-color: ##FF7F00;}
+	100% {background-color: #e8482c;}
+}
+
+.thumbnail {
+	border: 0 none;
+}
+
+.caption {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.container-fluid {
+	background-color: #333;
+}
+
+.titles {
+	margin-bottom: 1em;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	background-color: black;
+	color: white;
+}
+
+article {
+	display: block;
+}
+
+.bottomSpacer {
+	margin-bottom: 2em;
+}
+
+h4 {
+	color: white;
+}
+
+h5 {
+	color: #FF7F00;
+}
+.program {
+	color: #FF7F00;
+	border-radius: 20px;
+	border-color: #FF7F00;
+}
+
+/*ARTICLE*/
+.article-container {
+	border: 1px solid #e0e0e0;
+	border-radius: 25px;
+	padding: 20px 10px;
+	margin: 5px;
+	text-align: center;
+}
+
+/* Center the image in its div */
+img {
+  display: block;
+  margin: 0 auto;
+  width: 290px;
+  heigth: 176px;
+}
+
+.socialNav {
+  color: #333;
+}
+
+.fa:hover {
+	color: #FF7F00;
+}
+
+.img-rounded {
+	border-radius: 25px;
+}
+a {
+	color: #FF7F00;
+	text-decoration: none;
+}
+
+a.seats-left {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* FOOTER */
+footer{
+	background-color:#222222;
+  padding: 60px 0px;
+}
+
+footer a:hover{
+	color:#FF7F00;
+	text-decoration:none;
+}
+
+footer  {
+	color:#FF7F00;
+}
+
+.footer-text {
+	font-size: 18px;
+}
+
+.footer-top a{
+    color:#FFF;
+    text-decoration:none;
+}
+
+.copyright{
+    background-color:#f0f0f0;
+}
+
+.copyright p{
+	font-size:12px;
+	padding:15px 0 10px 0;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 800px) {
+
+	.footer-top {
+		line-height: 50px;
+	}
+
+}
